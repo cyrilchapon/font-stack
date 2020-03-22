@@ -1,0 +1,28 @@
+{
+  "name": "font-stack",
+  "version": "1.0.0",
+  "description": "Database & utils for font-stacks",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "author": "Cyril CHAPON",
+  "license": "MIT",
+  "scripts": {
+    "build": "npm-run-all -s _clean _compile",
+    "lint": "standard --verbose | snazzy",
+    "_compile": "babel src/index.js --out-dir dist",
+    "_prepare": "shx mkdir -p dist",
+    "_clean": "shx rm -rf dist"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "npm-run-all": "^4.1.5",
+    "shx": "^0.3.2",
+    "snazzy": "^8.0.0",
+    "standard": "^14.3.3"
+  }
+}
