@@ -1,5 +1,14 @@
 # font-stack
 
+## Install
+```bash
+yarn add font-stack
+
+//or
+
+npm install --save font-stack
+```
+
 ## Usage
 
 ```js
