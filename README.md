@@ -1,5 +1,7 @@
 # font-stack
 
+![build status](https://img.shields.io/travis/cyrilchapon/font-stack?logo=travis)
+
 ## Install
 ```bash
 yarn add font-stack
