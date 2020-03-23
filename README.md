@@ -1,6 +1,6 @@
 # font-stack
 
-![build status](https://img.shields.io/travis/cyrilchapon/font-stack?logo=travis)
+![build status](https://img.shields.io/travis/cyrilchapon/font-stack?style=flat-square&logo=travis) ![code style](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square&logo=javascript)
 
 ## Install
 ```bash
