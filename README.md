@@ -4,7 +4,7 @@
 ```bash
 yarn add font-stack
 
-//or
+// or
 
 npm install --save font-stack
 ```
